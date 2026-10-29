@@ -26,3 +26,42 @@ body {
     padding: 0;
 }
 
+body {
+    max-height: 100vh;
+}
+
+#container {
+    display: flex;
+}
+
+.image-section {
+    position: relative;
+}
+
+.image-background {
+    max-height: 100vh;
+}
+
+.logo-background {
+    background-color: hsl(0, 0%, 0%, 0.5);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Norse';
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.logo-background img {
+    height: 80px;
+}
+
+
+
