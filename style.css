@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('./assets/fonts/norse/Norse.woff2') format('woff2'),
+        url('./assets/fonts/norse/Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('./assets/fonts/norse/Norse-Bold.woff2') format('woff2'),
+        url('./assets/fonts/norse/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
