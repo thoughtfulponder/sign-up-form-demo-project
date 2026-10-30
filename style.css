@@ -76,20 +76,48 @@ label {
 }
 
 .form-container {
-    background-color: /* hsl(0, 0%, 100%)*/ red;
     margin: 0;
-    box-shadow: 0 5px 5px rgba(0,0,0, 0.15);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem 4rem;
+
 }
 
 .form-area {
-    background-color: red;
+    background-color: /* hsl(0, 0%, 100%)*/ red;
     padding-top: .2rem;
-    margin-top: 2rem;
+    margin: 3rem 0;
+    padding-bottom: 2rem;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.15);
 }
 
 .form-section {
     margin-top: 7%;
+}
+
+.form-group {
+    display: flex;
+    gap: 1rem 4rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section input {
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: hsl(92, 20%, 35%);
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+
+p a {
+    color: hsl(92, 20%, 35%);
 }
