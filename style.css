@@ -49,7 +49,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 33%;
+    height: 15%;
 }
 
 h2 {
@@ -60,8 +61,11 @@ h2 {
 }
 
 .logo-background img {
-    height: 80px;
+    height: 100px;
 }
 
-
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
 
