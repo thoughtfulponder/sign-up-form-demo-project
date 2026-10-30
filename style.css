@@ -28,6 +28,7 @@ body {
 
 body {
     max-height: 100vh;
+    background-color: hsl(210, 20%, 98%);
 }
 
 #container {
@@ -53,7 +54,7 @@ body {
     height: 15%;
 }
 
-h2 {
+.logo-background h2 {
     color: white;
     font-family: 'Norse';
     font-weight: bold;
@@ -64,8 +65,18 @@ h2 {
     height: 100px;
 }
 
-.form-section {
+.form-section p,
+.form-section h2,
+.form-container {
+    padding: 1rem 2rem;
+}
+
+.form-container {
+    background-color: /* hsl(0, 0%, 100%)*/ red;
+    margin: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.15);
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
