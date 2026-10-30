@@ -31,6 +31,10 @@ body {
     background-color: hsl(210, 20%, 98%);
 }
 
+label {
+    text-transform: uppercase;
+}
+
 #container {
     display: flex;
 }
@@ -68,7 +72,7 @@ body {
 .form-section p,
 .form-section h2,
 .form-container {
-    padding: 1rem 2rem;
+    padding-left: 2rem;
 }
 
 .form-container {
@@ -82,4 +86,10 @@ body {
 
 .form-area {
     background-color: red;
+    padding-top: .2rem;
+    margin-top: 2rem;
+}
+
+.form-section {
+    margin-top: 7%;
 }
