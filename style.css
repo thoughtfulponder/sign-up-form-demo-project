@@ -102,6 +102,7 @@ label {
 .section {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1rem;
 }
 
 .section input {
