@@ -118,6 +118,15 @@ button {
     color: white;
 }
 
+p, h2, label {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+label {
+    letter-spacing: 2px;
+}
+
 p a {
     color: #596D48;
 }
