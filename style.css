@@ -80,8 +80,6 @@ label {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem 4rem;
-
 }
 
 .form-area {
@@ -113,11 +111,11 @@ label {
 
 button {
     padding: 10px 40px;
-    background-color: hsl(92, 20%, 35%);
+    background-color: #596D48;
     border-radius: 5px;
     margin-left: 2rem;
 }
 
 p a {
-    color: hsl(92, 20%, 35%);
+    color: #596D48;
 }
