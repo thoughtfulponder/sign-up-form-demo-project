@@ -107,6 +107,7 @@ label {
 .section input {
     padding: 5px 40px;
     border-radius: 5px;
+    border-color: #E5E7EB;
 }
 
 button {
@@ -124,4 +125,8 @@ p a {
 .pwd input:user-invalid,
 .comfirm-pwd input:user-invalid {
     border-color: red;
+}
+
+.last-name input:user-valid {
+    border-color: blue;
 }
