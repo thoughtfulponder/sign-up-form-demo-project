@@ -137,7 +137,8 @@ p a {
     border-color: red;
 }
 
-.last-name input:focus {
-    border-color: blue;
+input:focus {
+    outline: none;
+    border: 2px solid blue;
     box-shadow: 0 5px 5px rgba(0,0,0, 0.15);
 }
