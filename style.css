@@ -83,7 +83,7 @@ label {
 }
 
 .form-area {
-    background-color: /* hsl(0, 0%, 100%)*/ lightblue;
+    background-color: hsl(0, 0%, 100%);
     padding-top: .2rem;
     margin: 3rem 0 2rem;
     padding-bottom: 2rem;
@@ -108,7 +108,7 @@ label {
 .section input {
     padding: 5px 40px;
     border-radius: 5px;
-    border-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
 }
 
 button {
