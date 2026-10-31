@@ -83,9 +83,9 @@ label {
 }
 
 .form-area {
-    background-color: /* hsl(0, 0%, 100%)*/ red;
+    background-color: /* hsl(0, 0%, 100%)*/ lightblue;
     padding-top: .2rem;
-    margin: 3rem 0;
+    margin: 3rem 0 2rem;
     padding-bottom: 2rem;
     box-shadow: 0 5px 5px rgba(0,0,0, 0.15);
 }
@@ -114,8 +114,14 @@ button {
     background-color: #596D48;
     border-radius: 5px;
     margin-left: 2rem;
+    color: white;
 }
 
 p a {
     color: #596D48;
+}
+
+.pwd input:user-invalid,
+.comfirm-pwd input:user-invalid {
+    border-color: red;
 }
