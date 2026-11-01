@@ -29,6 +29,7 @@ body {
 body {
     max-height: 100vh;
     background-color: hsl(210, 20%, 98%);
+    font-family: "Roboto", sans-serif;
 }
 
 label {
@@ -109,6 +110,7 @@ label {
     padding: 5px 40px;
     border-radius: 5px;
     border: 2px solid #E5E7EB;
+    font-weight: bold;
 }
 
 button {
