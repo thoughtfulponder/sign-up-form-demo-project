@@ -80,7 +80,7 @@ label {
     margin: 0;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .form-area {
@@ -89,6 +89,8 @@ label {
     margin: 3rem 0 2rem;
     padding-bottom: 2rem;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    padding-right: 100%;
 }
 
 .form-section {
