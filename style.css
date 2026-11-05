@@ -45,7 +45,7 @@ label {
 }
 
 .image-background {
-    max-height: 100vh;
+    height: 100vh;
 }
 
 .logo-background {
